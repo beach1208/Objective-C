@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Question.h"
+#import "AdditionQuestion.h"
 #import "InputHandler.h"
 #import "ScoreKeeper.h"
 
@@ -18,7 +18,7 @@ int main(int argc, const char * argv[]) {
       
         while(gameOn){
 //            AdditionQuestion *q = [[AdditionQuestion alloc]init];  //calling default constructor
-            Question *q = [Question new]; // shorter version of alloc init
+            AdditionQuestion *q = [AdditionQuestion new]; // shorter version of alloc init
            
             
              NSString *userAnswer = [InputHandler getUserInputWithLength:10 withPrompt:[q question]];

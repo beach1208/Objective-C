@@ -10,13 +10,7 @@
 		114504BC2141ABF300DD5C5E /* ScoreKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = 114504BB2141ABF300DD5C5E /* ScoreKeeper.m */; };
 		1177207621418532001B9E34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1177207521418532001B9E34 /* main.m */; };
 		1177207E21418CB3001B9E34 /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1177207D21418CB3001B9E34 /* InputHandler.m */; };
-		11772081214194CA001B9E34 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 11772080214194CA001B9E34 /* Question.m */; };
-		11B29D8A2146D792000F33CF /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B29D892146D792000F33CF /* QuestionManager.m */; };
-		11B29D8D2146E4B9000F33CF /* AdditionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B29D8C2146E4B9000F33CF /* AdditionQuestion.m */; };
-		11B29D902146E4D2000F33CF /* SubstractQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B29D8F2146E4D2000F33CF /* SubstractQuestion.m */; };
-		11B29D932146E4E3000F33CF /* MultiplyQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B29D922146E4E3000F33CF /* MultiplyQuestion.m */; };
-		11B29D962146E4F0000F33CF /* DividingQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B29D952146E4F0000F33CF /* DividingQuestion.m */; };
-		11B29D992146E9AA000F33CF /* QuestionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B29D982146E9AA000F33CF /* QuestionFactory.m */; };
+		11772081214194CA001B9E34 /* AdditionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 11772080214194CA001B9E34 /* AdditionQuestion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,24 +28,12 @@
 /* Begin PBXFileReference section */
 		114504BA2141ABF300DD5C5E /* ScoreKeeper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoreKeeper.h; sourceTree = "<group>"; };
 		114504BB2141ABF300DD5C5E /* ScoreKeeper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreKeeper.m; sourceTree = "<group>"; };
-		1177207221418532001B9E34 /* Lab3-part1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lab3-part1"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1177207221418532001B9E34 /* Lab5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab5; sourceTree = BUILT_PRODUCTS_DIR; };
 		1177207521418532001B9E34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1177207C21418CB3001B9E34 /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
 		1177207D21418CB3001B9E34 /* InputHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
-		1177207F214194CA001B9E34 /* Question.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
-		11772080214194CA001B9E34 /* Question.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
-		11B29D882146D792000F33CF /* QuestionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionManager.h; sourceTree = "<group>"; };
-		11B29D892146D792000F33CF /* QuestionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionManager.m; sourceTree = "<group>"; };
-		11B29D8B2146E4B9000F33CF /* AdditionQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdditionQuestion.h; sourceTree = "<group>"; };
-		11B29D8C2146E4B9000F33CF /* AdditionQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdditionQuestion.m; sourceTree = "<group>"; };
-		11B29D8E2146E4D2000F33CF /* SubstractQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubstractQuestion.h; sourceTree = "<group>"; };
-		11B29D8F2146E4D2000F33CF /* SubstractQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubstractQuestion.m; sourceTree = "<group>"; };
-		11B29D912146E4E3000F33CF /* MultiplyQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiplyQuestion.h; sourceTree = "<group>"; };
-		11B29D922146E4E3000F33CF /* MultiplyQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplyQuestion.m; sourceTree = "<group>"; };
-		11B29D942146E4F0000F33CF /* DividingQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DividingQuestion.h; sourceTree = "<group>"; };
-		11B29D952146E4F0000F33CF /* DividingQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DividingQuestion.m; sourceTree = "<group>"; };
-		11B29D972146E9AA000F33CF /* QuestionFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionFactory.h; sourceTree = "<group>"; };
-		11B29D982146E9AA000F33CF /* QuestionFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionFactory.m; sourceTree = "<group>"; };
+		1177207F214194CA001B9E34 /* AdditionQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdditionQuestion.h; sourceTree = "<group>"; };
+		11772080214194CA001B9E34 /* AdditionQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdditionQuestion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +50,7 @@
 		1177206921418532001B9E34 = {
 			isa = PBXGroup;
 			children = (
-				1177207421418532001B9E34 /* Lab3-part1 */,
+				1177207421418532001B9E34 /* Lab5 */,
 				1177207321418532001B9E34 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,43 +58,31 @@
 		1177207321418532001B9E34 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1177207221418532001B9E34 /* Lab3-part1 */,
+				1177207221418532001B9E34 /* Lab5 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1177207421418532001B9E34 /* Lab3-part1 */ = {
+		1177207421418532001B9E34 /* Lab5 */ = {
 			isa = PBXGroup;
 			children = (
 				1177207521418532001B9E34 /* main.m */,
-				11B29D972146E9AA000F33CF /* QuestionFactory.h */,
-				11B29D982146E9AA000F33CF /* QuestionFactory.m */,
 				114504BA2141ABF300DD5C5E /* ScoreKeeper.h */,
 				114504BB2141ABF300DD5C5E /* ScoreKeeper.m */,
 				1177207C21418CB3001B9E34 /* InputHandler.h */,
 				1177207D21418CB3001B9E34 /* InputHandler.m */,
-				1177207F214194CA001B9E34 /* Question.h */,
-				11772080214194CA001B9E34 /* Question.m */,
-				11B29D8B2146E4B9000F33CF /* AdditionQuestion.h */,
-				11B29D8C2146E4B9000F33CF /* AdditionQuestion.m */,
-				11B29D8E2146E4D2000F33CF /* SubstractQuestion.h */,
-				11B29D8F2146E4D2000F33CF /* SubstractQuestion.m */,
-				11B29D912146E4E3000F33CF /* MultiplyQuestion.h */,
-				11B29D922146E4E3000F33CF /* MultiplyQuestion.m */,
-				11B29D882146D792000F33CF /* QuestionManager.h */,
-				11B29D892146D792000F33CF /* QuestionManager.m */,
-				11B29D942146E4F0000F33CF /* DividingQuestion.h */,
-				11B29D952146E4F0000F33CF /* DividingQuestion.m */,
+				1177207F214194CA001B9E34 /* AdditionQuestion.h */,
+				11772080214194CA001B9E34 /* AdditionQuestion.m */,
 			);
-			path = "Lab3-part1";
+			path = "Lab5";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1177207121418532001B9E34 /* Lab3-part1 */ = {
+		1177207121418532001B9E34 /* Lab5 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1177207921418532001B9E34 /* Build configuration list for PBXNativeTarget "Lab3-part1" */;
+			buildConfigurationList = 1177207921418532001B9E34 /* Build configuration list for PBXNativeTarget "Lab5" */;
 			buildPhases = (
 				1177206E21418532001B9E34 /* Sources */,
 				1177206F21418532001B9E34 /* Frameworks */,
@@ -122,9 +92,9 @@
 			);
 			dependencies = (
 			);
-			name = "Lab3-part1";
-			productName = "Lab3-part1";
-			productReference = 1177207221418532001B9E34 /* Lab3-part1 */;
+			name = Lab5;
+			productName = "Lab5";
+			productReference = 1177207221418532001B9E34 /* Lab5 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -141,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1177206D21418532001B9E34 /* Build configuration list for PBXProject "Lab3-part1" */;
+			buildConfigurationList = 1177206D21418532001B9E34 /* Build configuration list for PBXProject "Lab5" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -153,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1177207121418532001B9E34 /* Lab3-part1 */,
+				1177207121418532001B9E34 /* Lab5 */,
 			);
 		};
 /* End PBXProject section */
@@ -163,15 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11B29D8A2146D792000F33CF /* QuestionManager.m in Sources */,
-				11B29D8D2146E4B9000F33CF /* AdditionQuestion.m in Sources */,
 				114504BC2141ABF300DD5C5E /* ScoreKeeper.m in Sources */,
-				11B29D902146E4D2000F33CF /* SubstractQuestion.m in Sources */,
 				1177207621418532001B9E34 /* main.m in Sources */,
-				11B29D962146E4F0000F33CF /* DividingQuestion.m in Sources */,
-				11B29D932146E4E3000F33CF /* MultiplyQuestion.m in Sources */,
-				11772081214194CA001B9E34 /* Question.m in Sources */,
-				11B29D992146E9AA000F33CF /* QuestionFactory.m in Sources */,
+				11772081214194CA001B9E34 /* AdditionQuestion.m in Sources */,
 				1177207E21418CB3001B9E34 /* InputHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,7 +273,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1177206D21418532001B9E34 /* Build configuration list for PBXProject "Lab3-part1" */ = {
+		1177206D21418532001B9E34 /* Build configuration list for PBXProject "Lab5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1177207721418532001B9E34 /* Debug */,
@@ -318,7 +282,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1177207921418532001B9E34 /* Build configuration list for PBXNativeTarget "Lab3-part1" */ = {
+		1177207921418532001B9E34 /* Build configuration list for PBXNativeTarget "Lab5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1177207A21418532001B9E34 /* Debug */,

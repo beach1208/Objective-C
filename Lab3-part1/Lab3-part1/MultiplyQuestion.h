@@ -1,5 +1,5 @@
 //
-//  AdditionQuestion.h
+//  MultiplyQuestion.h
 //  Lab3-part1
 //
 //  Created by 小島　渚 on 2018-09-10.
@@ -8,6 +8,6 @@
 
 #import "Question.h"
 
-@interface AdditionQuestion : Question
+@interface MultiplyQuestion : Question
 -(void) generateQuestion;
 @end
