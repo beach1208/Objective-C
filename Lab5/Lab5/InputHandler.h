@@ -1,5 +1,5 @@
 //
-//  AdditionQuestion.h
+//  InputHandler.h
 //  Lab3-part1
 //
 //  Created by 小島　渚 on 2018-09-06.
@@ -8,9 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface AdditionQuestion : NSObject
-@property (nonatomic,strong) NSString *question;
-@property (nonatomic,assign) NSInteger answer;
-
-
+@interface InputHandler : NSObject
++ (NSString *)getUserInput:(NSString *) prompt;
 @end

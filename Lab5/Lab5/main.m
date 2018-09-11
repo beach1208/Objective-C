@@ -7,21 +7,26 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AdditionQuestion.h"
+#import "Question.h"
 #import "InputHandler.h"
 #import "ScoreKeeper.h"
+#import "QuestionManager.h"
+#import "QuestionFactory.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         BOOL gameOn = YES;
-        ScoreKeeper *finalScore = [ScoreKeeper new];
+        ScoreKeeper *finalScore = [[ScoreKeeper alloc]init];
+        QuestionManager *questionManager = [QuestionManager manager];
+        QuestionFactory *questionFactory = [[QuestionFactory alloc]init];
       
         while(gameOn){
 //            AdditionQuestion *q = [[AdditionQuestion alloc]init];  //calling default constructor
-            AdditionQuestion *q = [AdditionQuestion new]; // shorter version of alloc init
-           
+            Question *q = [questionFactory generateRandomQuestion];
             
-             NSString *userAnswer = [InputHandler getUserInputWithLength:10 withPrompt:[q question]];
+            //user Input
+        
+            NSString *userAnswer = [InputHandler getUserInput:[q question]];
 
             NSInteger userAnsInt = [userAnswer integerValue];
             
@@ -29,6 +34,8 @@ int main(int argc, const char * argv[]) {
                 gameOn = NO;
                 break;
             }
+            NSString *answer = [NSString stringWithFormat:@"%ld", [q answer]];
+            [questionManager addQuestions:q];
             
             if([q answer] == userAnsInt) {
                 NSLog(@"Right!");

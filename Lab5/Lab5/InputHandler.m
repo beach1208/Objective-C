@@ -12,15 +12,11 @@
 
 //function class
 
-+ (NSString *)getUserInputWithLength: (int) maxLength withPrompt: (NSString *) prompt{
-    if(maxLength <1){
-        maxLength = 255;
-    }
-    
++ (NSString *)getUserInput:(NSString *) prompt{
+    char inputChars[255];
     NSLog(@"%@",prompt);
-    char inputChars[maxLength];
-    const char *cstring = fgets(inputChars,maxLength,stdin);
-    NSString *result = [NSString stringWithCString: cstring encoding: NSUTF8StringEncoding];
+    fgets(inputChars, 255, stdin);
+    NSString *result = [NSString stringWithUTF8String:inputChars];
     NSCharacterSet *whitespaceAndNewLine = [NSCharacterSet whitespaceAndNewlineCharacterSet];
     
     return [result stringByTrimmingCharactersInSet: whitespaceAndNewLine];
