@@ -12,7 +12,7 @@
 #import "ContactList.h"
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
+    @aut/Users/nagi/Desktop/objective-c/Lab10/Lab10/main.moreleasepool {
         ContactList *contactList = [ContactList new];
         InputHandler *inputHistory = [InputHandler new];
         
